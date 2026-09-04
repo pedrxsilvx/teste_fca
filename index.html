@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aula ao vivo: transforme a IA na sua melhor dupla de criação | Creative Punch</title>
+<meta name="description" content="Numa aula gratuita e ao vivo, Rapha Borges mostra o processo criativo que o levou a virar CCO de uma das maiores agências do mundo, e como ele usa IA para pensar melhor, não para pensar no lugar dele.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#form-principal">Pular para o formulário de inscrição</a>
+
+<!-- =========================================================
+     SEÇÃO 1 — HERO
+========================================================= -->
+<header class="hero" id="topo">
+  <div class="stripes-bg stripes-bg--hero" aria-hidden="true"><span class="stripes-bg__fade"></span></div>
+
+  <div class="container hero__inner">
+    <div class="hero__brand">
+      <a href="#topo" class="brand" aria-label="Creative Punch">
+        <img src="assets/img/logo-punch.svg" alt="Creative Punch" width="40" height="40">
+        <span class="brand__name">Creative Punch</span>
+      </a>
+    </div>
+
+    <div class="hero__grid">
+      <div class="hero__copy">
+        <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span>Aula gratuita e ao vivo · com Rapha Borges</p>
+
+        <h1 class="hero__headline">Descubra como transformar a IA na sua melhor dupla de criação. <span class="hero__headline-muted">Sem terceirizar as suas ideias.</span></h1>
+
+        <p class="hero__subheadline">Numa aula ao vivo, Rapha Borges mostra o processo criativo que o levou a virar CCO de uma das maiores agências do mundo, e como ele usa inteligência artificial para pensar melhor, não para pensar no lugar dele.</p>
+
+        <ul class="event-facts">
+          <li class="event-facts__item">
+            <span class="event-facts__label">Gratuito</span>
+          </li>
+          <li class="event-facts__item">
+            <span class="event-facts__label">Terça-feira, às 20h · Ao vivo</span>
+          </li>
+          <li class="event-facts__item">
+            <span class="event-facts__label">Ao vivo e sem replay garantido</span>
+          </li>
+        </ul>
+
+        <!--
+          Countdown: componente preparado, porém DESATIVADO até existir uma
+          data real do evento. Quando a data for definida, adicione o
+          atributo data-event-date="AAAA-MM-DDTHH:MM:SS-03:00" no elemento
+          abaixo e remova o atributo hidden — o script em assets/js/main.js
+          já está pronto para iniciar a contagem automaticamente.
+        -->
+        <div class="countdown" id="countdown" data-event-date="" hidden>
+          <div class="countdown__item"><span class="countdown__value" data-days>00</span><span class="countdown__label">dias</span></div>
+          <div class="countdown__item"><span class="countdown__value" data-hours>00</span><span class="countdown__label">horas</span></div>
+          <div class="countdown__item"><span class="countdown__value" data-minutes>00</span><span class="countdown__label">min</span></div>
+          <div class="countdown__item"><span class="countdown__value" data-seconds>00</span><span class="countdown__label">seg</span></div>
+        </div>
+      </div>
+
+      <div class="hero__form-wrap">
+        <form class="form-card" id="form-principal" novalidate
+              data-form-endpoint=""
+              aria-labelledby="form-principal-title">
+          <!--
+            INTEGRAÇÃO DO FORMULÁRIO
+            ------------------------------------------------------------
+            Nenhuma integração/endpoint foi localizada no projeto original.
+            O componente está pronto (campos + validação client-side em
+            assets/js/main.js), mas o envio real precisa ser conectado.
+
+            Para conectar, defina o atributo data-form-endpoint acima com a
+            URL do webhook/CRM (ex: RD Station, ActiveCampaign, endpoint
+            próprio) e ajuste a função submitForm() em assets/js/main.js.
+            Não há Pixel/GTM configurado — se já existirem IDs reais do
+            projeto, adicione-os no <head> antes de publicar.
+          ------------------------------------------------------------- -->
+          <h2 class="form-card__title" id="form-principal-title">Garanta sua vaga gratuita</h2>
+
+          <div class="form-field">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" autocomplete="name" required>
+            <span class="form-field__error" data-error-for="nome"></span>
+          </div>
+
+          <div class="form-field">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Seu melhor e-mail" autocomplete="email" required>
+            <span class="form-field__error" data-error-for="email"></span>
+          </div>
+
+          <div class="form-field">
+            <label for="whatsapp">WhatsApp com DDD</label>
+            <input type="tel" id="whatsapp" name="whatsapp" placeholder="(00) 00000-0000" autocomplete="tel" inputmode="tel" required>
+            <span class="form-field__error" data-error-for="whatsapp"></span>
+          </div>
+
+          <button type="submit" class="btn btn--dark btn--block">
+            Quero minha vaga gratuita
+          </button>
+
+          <p class="form-card__status" role="status" aria-live="polite" data-form-status></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- =========================================================
+     SEÇÃO 2 — IDENTIFICAÇÃO
+========================================================= -->
+<section class="section section--identify" aria-labelledby="identify-title">
+  <div class="stripes-bg stripes-bg--full" aria-hidden="true"></div>
+  <div class="container">
+    <div class="identify__grid">
+      <h2 class="identify__title" id="identify-title">Se você trabalha com criação, marketing ou comunicação, provavelmente já viveu isto:</h2>
+
+      <ul class="identify__bullets">
+        <li><span class="bullet-mark" aria-hidden="true">◆</span>Você tem a ideia, mas trava na hora de desenvolver e organizar o raciocínio.</li>
+        <li><span class="bullet-mark" aria-hidden="true">◆</span>A IA entra pra ajudar, e o resultado sai genérico, raso, sem profundidade.</li>
+        <li><span class="bullet-mark" aria-hidden="true">◆</span>No fim, você não sabe exatamente onde a ferramenta encaixa no seu processo.</li>
+      </ul>
+    </div>
+
+    <p class="identify__highlight">Nunca tivemos tantas ferramentas, e nunca foi tão difícil se tornar relevante. É esse paradoxo que esta aula existe para resolver.</p>
+  </div>
+
+  <div class="identify__closing">
+    <div class="container">
+      <p class="identify__closing-text">Você continua sendo o criativo, só que com mais velocidade, mais clareza e mais consistência.</p>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     SEÇÃO 3 — O QUE VOCÊ VAI APRENDER
+========================================================= -->
+<section class="section section--learn" aria-labelledby="learn-title">
+  <div class="stripes-bg stripes-bg--full" aria-hidden="true"></div>
+  <div class="container">
+    <h2 class="learn__title" id="learn-title">Nesta aula, ao vivo, você vai descobrir como:</h2>
+
+    <ol class="learn__list">
+      <li class="learn__item">
+        <span class="learn__number">01</span>
+        <div class="learn__body">
+          <h3 class="learn__heading">Ler um briefing como um detetive</h3>
+          <p class="learn__text">Como encontrar o problema por trás do pedido do cliente, e evitar criar uma ótima ideia para o problema errado.</p>
+        </div>
+      </li>
+      <li class="learn__item">
+        <span class="learn__number">02</span>
+        <div class="learn__body">
+          <h3 class="learn__heading">Evitar 5 erros que deixam o trabalho criativo mais raso e previsível</h3>
+          <p class="learn__text">Erros que aparecem tanto em quem está começando quanto em profissionais experientes, e que o próprio Rapha reconhece ter cometido ao longo dos seus 20 anos de carreira.</p>
+        </div>
+      </li>
+      <li class="learn__item">
+        <span class="learn__number">03</span>
+        <div class="learn__body">
+          <h3 class="learn__heading">Usar o método ROTA para encontrar boas ideias sem engessar sua criatividade</h3>
+          <p class="learn__text">Um processo para Reconhecer o problema, Observar referências, Trabalhar a ideia e Apresentá-la.</p>
+        </div>
+      </li>
+      <li class="learn__item">
+        <span class="learn__number">04</span>
+        <div class="learn__body">
+          <h3 class="learn__heading">Utilizar a IA sem deixar suas ideias com "cara de IA"</h3>
+          <p class="learn__text">Fazer as perguntas certas para a ferramenta parar de entregar o óbvio e virar uma extensão do seu critério.</p>
+        </div>
+      </li>
+      <li class="learn__item">
+        <span class="learn__number">05</span>
+        <div class="learn__body">
+          <h3 class="learn__heading">Apresentar para vender a ideia</h3>
+          <p class="learn__text">Use IA para antecipar objeções, testar sua defesa e fortalecer a ideia antes da reunião.</p>
+        </div>
+      </li>
+    </ol>
+
+    <p class="learn__highlight">Não é para quem quer só copiar e colar resposta de IA. É para quem quer pensar melhor usando IA.</p>
+
+    <div class="learn__cta">
+      <a href="#form-principal" class="btn btn--cream">Quero participar</a>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     SEÇÃO 4 — AUTORIDADE
+========================================================= -->
+<section class="section section--authority" aria-labelledby="authority-title">
+  <div class="stripes-bg stripes-bg--hero" aria-hidden="true"><span class="stripes-bg__fade"></span></div>
+  <div class="container authority__grid">
+    <div class="authority__copy">
+      <h2 class="authority__title" id="authority-title">Sobre o <strong>Rapha</strong>:</h2>
+
+      <div class="authority__card">
+        <p class="authority__signature">Rapha Borges | CCO da WMcCann.</p>
+        <p>Rapha é CCO da WMcCann, fundador da Tiger AI e da Escola Punch.</p>
+        <p>Mais de 20 anos criando para grandes marcas e formando criativos. Grand Prix em Cannes e 50+ prêmios na carreira.</p>
+        <p>Já formou centenas de criativos e lidera equipes de criação na sua rotina diária. É esse processo, o mesmo que ele usa no dia a dia, que será revelado nesta aula.</p>
+      </div>
+
+      <a href="#form-principal" class="btn btn--cream">Quero participar gratuitamente</a>
+    </div>
+
+    <div class="authority__photo">
+      <img src="assets/img/rapha-borges.jpg" alt="Retrato de Rapha Borges, CCO da WMcCann e fundador da Tiger AI e da Escola Punch." width="1200" height="808">
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     SEÇÃO 5 — PARA QUEM É
+========================================================= -->
+<section class="section section--audience" aria-labelledby="audience-title">
+  <div class="stripes-bg stripes-bg--full" aria-hidden="true"></div>
+  <div class="container">
+    <h2 class="audience__title" id="audience-title">Esta aula é para você que:</h2>
+
+    <ul class="audience__list">
+      <li><span class="bullet-mark" aria-hidden="true">◆</span>Trabalha com criação, marketing ou comunicação</li>
+      <li><span class="bullet-mark" aria-hidden="true">◆</span>Precisa ter ideias com frequência, e quer organizar melhor o pensamento</li>
+      <li><span class="bullet-mark" aria-hidden="true">◆</span>Quer criar apresentações mais claras e convincentes</li>
+      <li><span class="bullet-mark" aria-hidden="true">◆</span>Quer usar IA de forma prática e com critério no dia a dia</li>
+    </ul>
+
+    <p class="audience__closing">Do estagiário ao CCO: se você depende da sua criatividade para crescer, o lugar é aqui.</p>
+  </div>
+</section>
+
+<!-- =========================================================
+     SEÇÃO 6 — FECHAMENTO / CTA FINAL
+========================================================= -->
+<section class="section section--closing" aria-labelledby="closing-title">
+  <div class="stripes-bg stripes-bg--full" aria-hidden="true"></div>
+  <div class="container">
+    <p class="closing__lede">A IA vai nivelar todo mundo pela ferramenta. O que vai te tornar competitivo é o oposto do óbvio: o seu método, o seu critério, o seu processo. Quem desenvolve isso agora sai na frente, quem terceiriza o pensamento fica para trás.</p>
+    <p class="closing__note">O momento de aprender isso é agora. A aula é gratuita, ao vivo e sem replay garantido.</p>
+  </div>
+</section>
+
+<section class="section section--final-cta" aria-labelledby="final-cta-title">
+  <div class="container">
+    <h2 class="final-cta__title" id="final-cta-title">Garanta sua vaga gratuita.</h2>
+    <a href="#form-principal" class="btn btn--cream btn--large" data-scroll-to-form>
+      Quero minha vaga gratuita
+    </a>
+  </div>
+</section>
+
+<!-- =========================================================
+     RODAPÉ
+========================================================= -->
+<footer class="footer">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <img src="assets/img/logo-punch.svg" alt="Creative Punch" width="40" height="40">
+    </div>
+
+    <div class="footer__contact">
+      <p>Contato</p>
+      <p><a href="mailto:contato@creativepunch.com.br">contato@creativepunch.com.br</a></p>
+    </div>
+
+    <!--
+      Termos e Privacidade: não foram encontradas URLs reais dessas páginas
+      no projeto original. Os links abaixo estão desativados (href="#")
+      até que as URLs corretas sejam fornecidas — não invente destinos.
+    -->
+    <nav class="footer__legal" aria-label="Links legais">
+      <a href="#">Termos</a>
+      <a href="#">Privacidade</a>
+    </nav>
+
+    <p class="footer__copyright">© 2026 Creative Punch — Todos os direitos reservados</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
